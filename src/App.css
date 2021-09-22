@@ -1,0 +1,426 @@
+.contentHeader {
+  width: 98%;
+  margin: 0.75%;
+  height: 45px;
+  transition: background 0.2s linear;
+  position: fixed;
+  z-index: 250;
+  background: rgba(255, 255, 255, 0.95);
+  border-left: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  overflow: hidden;
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.4);
+}
+.contentHeaderOpened {
+  height: auto;
+  background: white;
+  max-height: 99%;
+  border-bottom: 1px solid #eaeaea;
+}
+.headerTop {
+  justify-content: space-between;
+  height: 44px;
+  border-bottom: 1px solid #eaeaea;
+}
+.border-bottomUnset {
+  border-bottom: unset;
+}
+.bag {
+  width: 25px;
+  height: 25px;
+  background: #1b1b1b;
+  border-radius: 100px;
+  color: white;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  font-family: Segoe UI;
+}
+.headerLeft {
+  margin-left: 10px;
+}
+.headerRight {
+  margin-right: 10px;
+}
+.homeCard {
+  color: white;
+  position: absolute;
+  left: 15px;
+  bottom: 13vh;
+}
+.homeCard h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.shopBlock {
+  width: 72px;
+  border-bottom: 1px solid white;
+  height: 15px;
+}
+.shopBlock p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 13px;
+}
+.modelsBlock {
+  width: 100%;
+}
+.modelsTxt {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 31px;
+  color: #000000;
+  margin: 15px;
+}
+.product {
+  margin-left: 15px;
+  max-width: 223px;
+  max-height: 299px;
+}
+.product:last-child {
+  margin-right: 15px;
+}
+.productBlock {
+  display: flex;
+  overflow-x: auto;
+}
+.productImg {
+  width: 200px;
+}
+.product p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 19px;
+  height: 19px;
+  overflow: hidden;
+  color: #000000;
+}
+.feedBlockOpened {
+  transition: 0.2s linear;
+  height: 129px;
+  overflow: hidden;
+}
+.feedBlockClosed {
+  transition: 0.1s linear;
+  height: 46px;
+  overflow: hidden;
+}
+.feedBackBlock {
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+.feedBlockTopClosed {
+  justify-content: space-between;
+  height: 45px;
+  border-bottom: 1px solid #eaeaea;
+}
+.feedBlockTopOpened {
+  justify-content: space-between;
+  height: 45px;
+}
+.feedSpan {
+  font-size: 13px;
+}
+.feedBlockBottom p {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.emailBlock {
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 300;
+}
+.emailTxt {
+  line-height: 21px;
+}
+.newsletterBlock {
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 300;
+}
+.inputBlock {
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.typeBlock {
+  width: 80%;
+  height: 20px;
+  background: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: unset;
+  font-weight: 300;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.submitBlock {
+  font-weight: 400;
+  border-bottom: 1px solid black;
+  height: 20px;
+}
+.termsTxt {
+  font-weight: 300;
+  color: #929292;
+  margin-top: 15px;
+  font-size: 11px;
+  line-height: 19px;
+}
+.blogBlock {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.blogContent {
+  margin-bottom: 30px;
+}
+.blogImg {
+  width: 100%;
+}
+.blogTitle {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.blogTxt {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.productPageImg {
+  width: 100%;
+}
+.productContent {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #eaeaea;
+  bottom: 0;
+}
+.productContentBlock {
+  margin-top: 10px;
+  text-align: center;
+}
+.productTitle-Price {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 0.9em;
+}
+.buttonsBlock {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.sizeButton {
+  width: 45%;
+  height: 44px;
+  border: 1px solid #eaeaea;
+  margin-right: 2.5px;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 13px;
+}
+.sizeButton p {
+  margin-left: 10px;
+}
+.productsBlock {
+  max-height: 270px;
+  overflow: auto;
+}
+.sizeButton img {
+  margin-right: 10px;
+}
+.addButton {
+  width: 48%;
+  height: 44px;
+  background-color: black;
+  margin-left: 2.5px;
+  border: 1px solid black;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  font-size: 13px;
+}
+.addedButton {
+  width: 48%;
+  height: 44px;
+  background-color: white;
+  margin-left: 2.5px;
+  border: 1px solid #eaeaea;
+  justify-content: center;
+  color: black;
+  font-weight: 400;
+  font-size: 13px;
+}
+.blockBlock {
+  height: 80px;
+}
+.bagProductContent {
+  position: relative;
+  width: 100%;
+}
+.bagProductBlock {
+  display: flex;
+  margin-bottom: 15px;
+}
+.bagBlock {
+  width: 95%;
+  background-color: white;
+  margin-left: 1.5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.hidden {
+  display: none;
+}
+.hidden-op {
+  opacity: 0;
+  visibility: hidden;
+}
+.bagProductTitle-price {
+  width: 100%;
+  position: absolute;
+  font-size: 0.85em;
+  font-weight: 300;
+  justify-content: space-between;
+}
+.bagProductTitle {
+  margin-left: 7.5px;
+}
+.bagProductSize {
+  margin-left: 7.5px;
+}
+.bagProductBlock img {
+  margin-right: 5px;
+}
+.productSize-removeBtn {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 0.85em;
+  font-weight: 300;
+  justify-content: space-between;
+}
+.bagProductColor {
+  width: 100%;
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+  font-size: 0.85em;
+  font-weight: 300;
+  justify-content: space-between;
+}
+.removeBtn {
+  border-bottom: 1px solid black;
+}
+.subTotalBlock {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 0.85em;
+  height: 50px;
+}
+.checkoutBlock {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.checkoutBtn {
+  width: 125px;
+  height: 44px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid #000;
+  background: #000;
+  font-size: 0.85em;
+}
+.addButton p {
+  color: white;
+}
+.emptyTxt {
+  font-weight: 300;
+  font-size: 0.85em;
+}
+.sizeSelectingBlock {
+  transition: 0.2s linear;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 150;
+  bottom: 0;
+  transform: translateY(500px);
+}
+.sizeSelectingBlockOpened {
+  transform: none;
+}
+.sizeOverlay {
+  transition: 0.2s linear;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+}
+.sizeOverlayOp-0 {
+  transition: 0.2s linear;
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+}
+.blockTop {
+  height: 75px;
+}
+.sizeBlockTitle {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 1em;
+}
+.selectSizeButton {
+  position: absolute;
+  width: 95%;
+  height: 44px;
+  margin-left: 2.5%;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-size: 0.85em;
+  bottom: 2.5%;
+}
+.blockCenter {
+  width: 90%;
+  margin-left: 5%;
+  font-weight: 300;
+  font-size: 0.85em;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+.sizeList {
+  max-height: 324px;
+  overflow: auto;
+}
+.sizeListBlock {
+  margin-bottom: 15px;
+}
