@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-cart/static/css/main.7768ac6c.chunk.css",
-    "main.js": "/react-cart/static/js/main.1f44c2b5.chunk.js",
-    "main.js.map": "/react-cart/static/js/main.1f44c2b5.chunk.js.map",
-    "runtime-main.js": "/react-cart/static/js/runtime-main.d39ba7bb.js",
-    "runtime-main.js.map": "/react-cart/static/js/runtime-main.d39ba7bb.js.map",
-    "static/js/2.aee4f7ef.chunk.js": "/react-cart/static/js/2.aee4f7ef.chunk.js",
-    "static/js/2.aee4f7ef.chunk.js.map": "/react-cart/static/js/2.aee4f7ef.chunk.js.map",
-    "index.html": "/react-cart/index.html",
-    "static/css/main.7768ac6c.chunk.css.map": "/react-cart/static/css/main.7768ac6c.chunk.css.map",
-    "static/js/2.aee4f7ef.chunk.js.LICENSE.txt": "/react-cart/static/js/2.aee4f7ef.chunk.js.LICENSE.txt"
+    "main.css": "/crt/static/css/main.7768ac6c.chunk.css",
+    "main.js": "/crt/static/js/main.e7801902.chunk.js",
+    "main.js.map": "/crt/static/js/main.e7801902.chunk.js.map",
+    "runtime-main.js": "/crt/static/js/runtime-main.a845c9c5.js",
+    "runtime-main.js.map": "/crt/static/js/runtime-main.a845c9c5.js.map",
+    "static/js/2.094e464e.chunk.js": "/crt/static/js/2.094e464e.chunk.js",
+    "static/js/2.094e464e.chunk.js.map": "/crt/static/js/2.094e464e.chunk.js.map",
+    "index.html": "/crt/index.html",
+    "static/css/main.7768ac6c.chunk.css.map": "/crt/static/css/main.7768ac6c.chunk.css.map",
+    "static/js/2.094e464e.chunk.js.LICENSE.txt": "/crt/static/js/2.094e464e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d39ba7bb.js",
-    "static/js/2.aee4f7ef.chunk.js",
+    "static/js/runtime-main.a845c9c5.js",
+    "static/js/2.094e464e.chunk.js",
     "static/css/main.7768ac6c.chunk.css",
-    "static/js/main.1f44c2b5.chunk.js"
+    "static/js/main.e7801902.chunk.js"
   ]
 }
